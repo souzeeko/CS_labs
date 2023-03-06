@@ -1,0 +1,6 @@
+/Users/skooff/RiderProjects/CSharp/CS_individual_2/bin/Debug/CS_individual_2.exe
+/Users/skooff/RiderProjects/CSharp/CS_individual_2/bin/Debug/CS_individual_2.pdb
+/Users/skooff/RiderProjects/CSharp/CS_individual_2/obj/Debug/CS_individual_2.csproj.AssemblyReference.cache
+/Users/skooff/RiderProjects/CSharp/CS_individual_2/obj/Debug/CS_individual_2.csproj.CoreCompileInputs.cache
+/Users/skooff/RiderProjects/CSharp/CS_individual_2/obj/Debug/CS_individual_2.exe
+/Users/skooff/RiderProjects/CSharp/CS_individual_2/obj/Debug/CS_individual_2.pdb
