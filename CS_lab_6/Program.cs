@@ -111,9 +111,18 @@ namespace CS_lab_6
             {
                 Console.Write($"{match.Groups[1].Value} ");
             }
+            
+            
+            
+            Console.WriteLine("\n[task 1e]\n");
 
 
 
+            Console.Write("input date: ");
+            Regex format_1e = new Regex(@"");
+            
+            
+            
             Console.WriteLine("\n\n[task 2a]\n");
 
             
@@ -133,8 +142,58 @@ namespace CS_lab_6
             {
                if (format_2a.IsMatch(result))
                {
-                    Console.Write($"{result}, "); //все что успел
+                    Console.Write($"{result} ");
                }
+            }
+            
+            
+            
+            Console.WriteLine("\n[task 2c]\n");
+
+            
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("input string: ");
+                string input_2c = Console.ReadLine();
+                Regex format_2c = new Regex(@"(ик\b)");
+                string result = format_2c.Replace(input_2c, string.Empty);
+                Console.WriteLine(result);
+            }
+
+            
+            
+            Console.WriteLine("\n[task 2d]\n");
+
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("input string: ");
+                string input_2d = Console.ReadLine();
+                Regex format_2d = new Regex(@"#[ABCDEF0-9]{6}");
+                MatchCollection isMatch_2d = format_2d.Matches(input_2d);
+                foreach (Match match in isMatch_2d)
+                {
+                    Console.WriteLine(match);
+                }
+            }
+            
+            
+            
+            Console.WriteLine("\n[task 2e]\n");
+            
+            
+
+            for (int i = 0; i < 5; i++)
+            {
+                string input_2e = Console.ReadLine();
+                Regex format_2e = new Regex(@"([a-fA-F0-9]){8}-\1{4}-\1{4}-\1{4}-\1{12}");
+                MatchCollection isMatch_2e = format_2e.Matches(input_2e);
+                foreach (Match match in isMatch_2e)
+                {
+                    Console.WriteLine(match);
+                }
             }
         }
     }
