@@ -1,0 +1,6 @@
+/Users/skooff/RiderProjects/CSharp/CS_lab_5/bin/Debug/CS_lab_5.exe
+/Users/skooff/RiderProjects/CSharp/CS_lab_5/bin/Debug/CS_lab_5.pdb
+/Users/skooff/RiderProjects/CSharp/CS_lab_5/obj/Debug/CS_lab_5.csproj.AssemblyReference.cache
+/Users/skooff/RiderProjects/CSharp/CS_lab_5/obj/Debug/CS_lab_5.csproj.CoreCompileInputs.cache
+/Users/skooff/RiderProjects/CSharp/CS_lab_5/obj/Debug/CS_lab_5.exe
+/Users/skooff/RiderProjects/CSharp/CS_lab_5/obj/Debug/CS_lab_5.pdb
